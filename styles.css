@@ -1,0 +1,230 @@
+    .top-header {
+      position: fixed;
+      background-color: lightblue;
+      width: 100%;
+      height: 5rem;
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      padding: 0 1.25rem;
+    }
+    .Menu-Horizontal {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 75rem;
+    }
+    .Menu-Horizontal li {
+      display: block;
+      padding: 0.938rem 1.25rem;
+      color: black;
+    }
+    .Menu-Horizontal li:hover {
+      color: red;
+    }
+    .Menu-Horizontal li a:hover {
+      color: red;
+    }
+    .Menu-Horizontal li a{
+      text-decoration none;
+    }
+
+    .Menu-Vertical {
+      padding: 0;
+      position: absolute;
+      display: none;
+      width: 11.25rem ;
+      background-color: rgb(253, 253, 253);
+    }
+
+    .Menu-Horizontal li:hover .Menu-Vertical {
+      display: block;
+    }
+
+    .Menu-Vertical li:hover {
+      background-color: rgb(109, 158, 160);
+    }
+    .Menu-Vertical li {
+      display: block;
+      color: black;
+      padding: 0.938rem 0.938rem 0.938rem 1.25rem;
+    }
+
+
+    /*Seccion-Inicio*/
+    .Seccion-Inicio{
+      padding: 10rem 1.875rem; 
+      background-color: whiter;
+    }
+    .Cont-Gral-Inicio{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      max-width: 75rem;
+      margin: 0 auto;
+      gap: 2.5rem;
+    }
+
+    .Cont-Inicio-Texto{
+      flex: 1;
+    }
+    .Cont-Inicio-Texto h2{
+    color: green;
+    margin-boton: 0.938rem;
+    }
+
+    .Cont-Inicio-Texto p{
+      color: black;
+      line-height:1,5;
+    }
+    .Cont-Inicio-Imagen{
+      flex: 1;
+      text-align: center;
+    }
+
+    .Cont-Inicio-Imagen img{
+      width: 100%
+      max-width: 31.25rem;
+      Border-radius: 0.625rem;
+    }
+
+    /*Seccion-Actividades*/
+    .Seccion-Actividades{
+      padding: 10rem 1.875rem; 
+      background-color: whiter;
+    }
+    .Cont-Gral-Actividades{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      max-width: 75rem;
+      margin: 0 auto;
+      gap: 2.5rem;
+    }
+    .Cont-Actividadaes-Texto{
+      flex: 1;
+    }
+    .Cont-Actividadaes-Texto h3{
+      color: green;
+      margin-boton: 0.938rem;
+    }
+
+    .Cont-Actividades-Texto p{
+      color: black;
+      line-height:1,5;
+    }
+    .Seccion-Calendario {
+      padding: 10rem 1.875rem;
+      background-color: white;
+    }
+
+    .Cont-Gral-Calendario {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 75rem;
+      margin: 0 auto;
+      gap: 2.5rem;
+    }
+
+    .Cont-Calendario-Texto {
+      flex: 1;
+    }
+
+    .Cont-Calendario-Texto h4 {
+      color: green;
+      margin-bottom: 0.938rem;
+    }
+
+    .Cont-Calendario-Texto p {
+      color: black;
+      line-height: 1.6;
+    }
+    .Cont-Calendario-Imagen{
+      width: 100%
+      max-width: 31.25rem;
+      Border-radius: 0.625rem;
+    }
+
+
+    .Seccion-Contacto {
+      background-color: rgb(171,229,241);
+      padding: 2.5rem;
+      border: 0.188rem;
+      Justify-content: center;
+      display: flex;
+      margin-bottom: 0.313rem;
+    }
+
+    .Cont-Gral-Contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 75rem;
+      margin: 0 auto;
+      gap: 2.5rem;
+    }
+
+    .Cont-Contacto-Texto h4 {
+      color: green;
+      margin-bottom: 0.938rem;
+    }
+
+    .Cont-Contacto-Texto p {
+      color: black;
+      line-height: 1.5;
+    }
+
+    .Div-Cont-Formulario{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 1.875rem;
+      border: 0.125rem solid black;
+      border-radius: 0.625rem;
+      width: 100%;
+      max-width: 31.25rem;
+    }
+    .Campo{
+      border: 0.063rem;
+      padding: 0.938rem;
+      margin-bottom: 0.938rem;
+      border-radius: 0.5rem;
+      background-Color: white;
+    }
+    .Campo label{
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: rgb(71, 19, 19);
+    }
+    input[type=text], select{
+      width: 100%;
+      padding: 0.625rem;
+      border: 0.063rem solid Green;
+      border-radius: 0.313rem;
+    }
+    .Lista-Checbox, .Lista-radio{
+      list-style: none;
+      padding: 0.625rem;
+      marging: 0;
+      border: 0.063rem;
+      background-color: #93ecd8;
+      border-radius: 0.5rem;
+    }
+    .Lista-Checbox li, .Lista-radio li{
+      margin-bottom: 0.5rem;
+    }
+    button{
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      border-radius: 0.313rem;
+      Cursor: pointer;
+    }
