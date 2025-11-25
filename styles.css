@@ -228,11 +228,12 @@
       border-radius: 0.313rem;
     }
     .Lista-Checbox, .Lista-radio{
+      text-align: center;
       list-style: none;
       padding: 0.625rem;
-      marging: 0;
+      margin: 0;
       border: 0.063rem;
-      background-color: #93ecd8;
+      background-color: #caf5d7;
       border-radius: 0.5rem;
     }
     .Lista-Checbox li, .Lista-radio li{
