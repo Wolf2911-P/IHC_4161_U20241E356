@@ -116,7 +116,6 @@
     }
     .Seccion-Calendario {
       padding: 10rem 1.875rem;
-      background-color: white;
     }
 
     .Cont-Gral-Calendario {
@@ -142,8 +141,8 @@
       line-height: 1.6;
     }
     .Cont-Calendario-Imagen{
-      width: 100%
-      max-width: 31.25rem;
+      width: 100%;
+      max-width: 7,5rem;
       Border-radius: 0.625rem;
     }
 
@@ -228,4 +227,97 @@
       border-radius: 0.313rem;
       Cursor: pointer;
     }
-    .Seccion-Login
+    .CerrarSesion {
+      background: #d9534f;
+      padding: 8px 14px;
+      border-radius: 6px;
+      color: white !important;
+      font-weight: bold;
+    }
+    
+    .CerrarSesion:hover {
+      background: #c9302c;
+    }
+
+    body {
+      background-color: #9ad8d3;
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+    .Seccion-Login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .Cont-Gral-Login {
+      display: flex;
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      gap: 2rem;
+      max-width: 800px;
+      width: 100%;
+    }
+
+
+    .Login-Izquierda {
+      flex: 1;
+    }
+
+    .Login-Titulo h1 {
+      margin-bottom: 0.5rem;
+      color: green;
+    }
+
+    .Login-Titulo p {
+      margin-bottom: 1.5rem;
+    }
+
+    .Campo {
+      margin-bottom: 1rem;
+    }
+
+    .Campo label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 0.4rem;
+    }
+
+    .Campo input {
+      width: 100%;
+      padding: 0.7rem;
+      border: 1px solid green;
+      border-radius: 6px;
+    }
+
+    #btnLogin {
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    #btnLogin:hover {
+      background-color: rgb(223, 146, 0);
+    }
+
+    .Login-Imagen {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Login-Imagen img {
+      width: 100%;
+      max-width: 300px;
+    }
