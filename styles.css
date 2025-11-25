@@ -84,7 +84,7 @@
     }
 
     .Cont-Inicio-Imagen img{
-      width: 100%
+      width: 100%;
       max-width: 31.25rem;
       Border-radius: 0.625rem;
     }
@@ -141,6 +141,10 @@
       line-height: 1.6;
     }
     .Cont-Calendario-Imagen{
+      flex: 1;
+      text-align: center
+    }
+    .Cont-Calendario-Imagen Img{
       width: 100%;
       max-width: 7,5rem;
       Border-radius: 0.625rem;
