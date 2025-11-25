@@ -121,10 +121,19 @@
     .Cont-Gral-Calendario {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: center;      
       max-width: 75rem;
       margin: 0 auto;
-      gap: 2.5rem;
+      gap: 3rem;                
+      padding-bottom: 3rem;     
+    }
+    
+    .Cont-Calendario-Imagen img {
+      width: 100%;
+      max-width: 31.25rem;
+      border-radius: 0.625rem;
+      display: block;
+      margin: 0 auto;           
     }
 
     .Cont-Calendario-Texto {
@@ -145,12 +154,6 @@
       text-align: center;
     }
     
-    .Cont-Calendario-Imagen img {
-      width: 100%;
-      max-width: 31.25rem;
-      border-radius: 0.625rem;
-      margin-left: 2rem;
-    }
     
     .Cont-Calendario-Video {
       margin-top: 3rem;
