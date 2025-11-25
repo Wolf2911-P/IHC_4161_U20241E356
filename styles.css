@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Devonshire&display=swap');
+    
     .top-header {
       position: fixed;
       background-color: lightblue;
@@ -9,17 +11,24 @@
       padding: 0 1.25rem;
     }
     .Menu-Horizontal {
-      list-style: none;
-      display: flex;
-      justify-content: space-around;
+      display: none;/* Ocultar menú horizontal por defecto */
+      flex-direction: column; /* Mostrarlo en vertical al activarse */
       width: 100%;
-      max-width: 75rem;
+      background-color: white;
+      position: absolute;
+      top: 5rem; /* Debajo del menú fijo */
+      left: 0;
+    }
+    .Menu-Horizontal.active {
+      display: flex; /* Mostrar menú al activar la clase */
     }
     .Menu-Horizontal li {
       display: block;
       padding: 0.938rem 1.25rem;
       color: black;
-    }
+      border-bottom: 1px solid #ccc; /* Líneas separadoras */
+  }
+    
     .Menu-Horizontal li:hover {
       color: red;
     }
@@ -67,6 +76,7 @@
     }
 
     .Cont-Inicio-Texto{
+
       flex: 1;
     }
     .Cont-Inicio-Texto h2{
@@ -77,6 +87,7 @@
     .Cont-Inicio-Texto p{
       color: black;
       line-height:1,5;
+      font-family: "Devonshire", cursive;
     }
     .Cont-Inicio-Imagen{
       flex: 1;
@@ -110,9 +121,10 @@
       margin-boton: 0.938rem;
     }
 
-    .Cont-Actividades-Texto p{
+    .Cont-Actividadaes-Texto p{
       color: black;
       line-height:1,5;
+      font-family: "Devonshire", cursive;
     }
     .Seccion-Calendario {
       padding: 10rem 1.875rem;
@@ -148,6 +160,7 @@
     .Cont-Calendario-Texto p {
       color: black;
       line-height: 1.6;
+      font-family: "Devonshire", cursive;
     }
     .Cont-Calendario-Imagen {
       flex: 1;
@@ -195,6 +208,7 @@
     .Cont-Contacto-Texto p {
       color: black;
       line-height: 1.5;
+      font-family: "Devonshire", cursive;
     }
 
     .Div-Cont-Formulario{
@@ -322,7 +336,7 @@
       padding: 0.7rem 1.4rem;
       border-radius: 6px;
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 1rem;acti
       margin-top: 0.5rem;
     }
 
@@ -341,3 +355,19 @@
       width: 100%;
       max-width: 300px;
     }
+/* BOTÓN HAMBURGUESA (ESCONDE EN DESKTOP) */
+.menu-toggle {
+  display: flex; /* Oculto por defecto */
+  font-size: 2rem; /* Tamaño del ícono hamburguesa */
+  background: none; /* Sin fondo */
+  border: none; /* Sin bordes */
+  cursor: pointer; /* Manito al pasar el mouse */
+  margin-right: 1rem; /* Espacio entre el borde derecho */
+}
+
+/* RESPONSIVE: MÓVILES */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Mostrar botón hamburguesa en móviles */
+    color: black;
+  }
