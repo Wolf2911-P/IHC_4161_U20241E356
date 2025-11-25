@@ -140,16 +140,28 @@
       color: black;
       line-height: 1.6;
     }
-    .Cont-Calendario-Imagen{
+    .Cont-Calendario-Imagen {
       flex: 1;
       text-align: center;
     }
-    .Cont-Calendario-Imagen img{
+    
+    .Cont-Calendario-Imagen img {
       width: 100%;
       max-width: 31.25rem;
-      Border-radius: 0.625rem;
+      border-radius: 0.625rem;
+      margin-left: 2rem;
     }
-
+    
+    .Cont-Calendario-Video {
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .Cont-Calendario-Video iframe {
+      max-width: 100%;
+      border-radius: 10px;
+    }
 
     .Seccion-Contacto {
       background-color: rgb(171,229,241);
