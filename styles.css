@@ -144,9 +144,9 @@
       flex: 1;
       text-align: center;
     }
-    .Cont-Calendario-Imagen Img{
+    .Cont-Calendario-Imagen img{
       width: 100%;
-      max-width: 7,5rem;
+      max-width: 31.25rem;
       Border-radius: 0.625rem;
     }
 
